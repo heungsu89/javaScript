@@ -91,7 +91,7 @@ let copy2 = [...arr]; // 깊은 복사
 
 
 4.객체 병합
- - 객체 병합 key 값이 달라야함 
+- 객체 병합 key 값이 달라야함 
 const obj1 = {a:1,b:2};
 const obj2 = {c:1,d:2};
 const combined_obj = {...obj1, ...obj2};

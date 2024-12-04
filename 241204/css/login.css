@@ -1,0 +1,19 @@
+
+
+.login .loginBox{max-width: 400px;margin: 0 auto;}
+.login .loginBox .boxColor{position: relative; padding: 20px 0px 5px;border: 1px solid #ddd;}
+.login .loginBox .boxColor.focus{border-color: rgb(20, 218, 20); font-size: 10px;}
+
+.login .loginBox .boxColor label{position: absolute; left: 10px ; top: 50%; transform: translateY(-50%); transition: 0.3s;}
+.login .loginBox .boxColor.focus label{top:10px}
+
+.login .loginBox .idBox{border-radius: 5px 5px 0 0 ; }
+.login .loginBox .pwBox{border-radius: 0 0 5px 5px;}
+
+.login .loginBox label{position: absolute; top: 50%; transform: translateY(-50%); left: 15px;}
+.login .loginBox input{padding: 3px 12px ;border: 0; outline: none;}
+.login .loginBox .loginBtnBox #loginBtn{width: 100%; height: 40px; border: 0; 
+    background-color: #444; color: #fff;
+    border-radius: 5px;}
+.login .loginBox .errorMessage{color: red; margin: 10px 0; font-size: 14px;}
+
